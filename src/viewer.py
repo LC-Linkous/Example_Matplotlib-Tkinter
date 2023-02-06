@@ -15,7 +15,7 @@ leftFrame = Frame(root, width=0.5 * window_width, height=window_height)
 class Viewer(Frame):
     def __init__(self, xbnds=[-100, 100], ybnds=[-100, 100], zbnds=[-100, 100], master=None):
         Frame.__init__(self, master)
-        self.master.title("matplot lib in tkinter example")
+        self.master.title("matplotlib in tkinter example")
         self.pack(fill=BOTH, expand=1)
         leftFrame.pack(side=LEFT, expand=True, fill=BOTH)
 
