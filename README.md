@@ -30,6 +30,7 @@ installed using 'pip install -r requirements.txt'
 * python-dateutil==2.8.2
 * six==1.16.0
 
+
 ## How to Use
 The program can be run from main.py, either in an IDE or with 'python src/main.py' from the root directory
 
